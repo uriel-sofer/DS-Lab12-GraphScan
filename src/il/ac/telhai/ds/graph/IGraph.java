@@ -60,7 +60,7 @@ public interface IGraph<V extends Comparable<V>, E> {
 	public String toStringExtended();
 
 	/**
-	 * @return If the the edge (u,v) exists.
+	 * @return If the edge (u,v) exists.
 	 */
 	public boolean areAdjacent(V u, V v);
 
